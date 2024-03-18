@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-body-secondary">
+    <!-- Container that starts the Bootstrap Grid -->
+    <div class="container">
+
+        <!-- Row 1 - Header Row -->
+        <div class="row bg-white pb-5">
+            <div class="col">
+                <h1 class="text-center fw-bold">Website for Selling Farm Products</h1>
+            </div>
+        </div>
+
+        <!-- Row 2 - Navbar -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#">Dairy Products</a>
+                            <a class="nav-link" href="#">Agriculture Products</a>
+                            <a class="nav-link" href="#">Types of Honey</a>
+                            <a class="nav-link" href="#">Other Related Products</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Row 3 - Main Content -->
+        <div class="row my-3">
+            <!-- Column 1 - left 2/3 -->
+            <div class="col-12 col-lg-8 order-1 order-lg-0">
+
+                <!-- Top Card -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Product One</h5>
+                        <h6 class="card-subtitle my-3">Fresh Milk</h6>
+                        <img src="https://www.oregondairy.com/wp-content/uploads/2016/05/Milk.jpg" class="card-img" alt="...">
+                        <p class="card-text">This is an example of the type of milk from the farm we have available</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Column 2 - right 1/3 -->
+            <div class="col-12 col-lg-4 order-0 order-lg-1">
+                
+                <!-- About Us -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">About Us</h5>
+                        <img src="https://www.earth.com/_next/image/?url=https%3A%2F%2Fcff2.earth.com%2Fuploads%2F2023%2F05%2F16064103%2FFarms-960x640.jpg&w=3840&q=75" class="card-img" alt="...">
+                        <p class="card-text mt-3">This is where you can learn more about our farm and also how to Contact Us. Please click below</p>
+                    </div>
+                </div>
+
+                <!-- To Order or Questions -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title my-3">Sign Up and Order Right Now!</h5>
+                        <div class="row">
+                            <h1 class="text-lg-start ms-3 fw-semibold">Please Enter Username | Email | Password</h1>
+                        </div>
+                        <form class="d-flex flex-column justify-content-between" style="height: 20em">
+                            <div class="input-group input-group-sm mb-3">
+                                <label for="exampleInputUsername1" class="col-form-label"></label>
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
+                                <input type="Username" class="form-control" id="exampleInputUsername1" aria-describedby="Username">
+                            </div>
+                            <div class="input-group input-group-sm mb-3">
+                                <label for="exampleInputEmail1" class="form-label"></label>
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                               <!---- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                              </div>
+          
+                              <div class="input-group input-group-sm mb-3p">
+                                <label for="exampleInputPassword1" class="form-label"></label>
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+
+                    <button type="submit" class="btn btn-primary" style="border-radius:20px">Sign Up and Start Order</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
